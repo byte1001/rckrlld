@@ -3,25 +3,34 @@
 <head>
   <title>Yummy Salmon</title>
   <script>
-    function getRickrolledBoi(b) {
+    function getRickrolledBoir() {
       //d = document.getElementById("rickroll").value;
       //document.getElementById("rkrl").hidden = false;
       //document.getElementById("rkrl").requestFullscreen();
-      if (b == "0") {
       vid = document.getElementById('vid');
       vid.hidden = false;
       vid.requestFullscreen();
       vid.play();
-      }
-      if (b == "1") {
+      //if (document.getElementById("cmd").value == "1") {
+      //vid.play();
+      //}
+    }
+    function getRickrolledBoib() {
+      //d = document.getElementById("rickroll").value;
+      //document.getElementById("rkrl").hidden = false;
+      //document.getElementById("rkrl").requestFullscreen();
+      vid = document.getElementById('vid');
       vid.play();
-      }
+      //if (document.getElementById("cmd").value == "1") {
+      //vid.play();
+      //}
     }
     
   </script>
 </head>
 <body>
-  <button onclick='getRickrolledBoi("0");' style="margin: auto;"><img src='https://docs.google.com/drawings/d/e/2PACX-1vRwOjFYBCrk2MAw0NUwtZqAMAxXtWG06321N9n_xRO_ONnlMMYgDF67wzlg94I6jsByMU-xT50d0wsq/pub?w=960&h=720'></button>
+  <button onclick='getRickrolledBoir();' style="margin: auto;"><img src='https://docs.google.com/drawings/d/e/2PACX-1vRwOjFYBCrk2MAw0NUwtZqAMAxXtWG06321N9n_xRO_ONnlMMYgDF67wzlg94I6jsByMU-xT50d0wsq/pub?w=960&h=720'></button>
+  <button onclick='getRickrolledBoib();' style="margin: auto;"><img src='https://docs.google.com/drawings/d/e/2PACX-1vQ76P3oSG98C6gZ0ovtKy_X-FvSeeuuALIIYI7ihXUvMmxXCNIw3MY4hTiQN5rXh2EiRwQwYilKmrr9/pub?w=960&h=720'></button>
   <br>
   <div id='rickroll'>
   <video width="320" height="240" controls id='vid' hidden>
