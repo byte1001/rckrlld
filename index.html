@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yummy Salmon</title>
+  <script>
+    function getRickrolledBoi() {
+      //d = document.getElementById("rickroll").value;
+      //document.getElementById("rkrl").hidden = false;
+      //document.getElementById("rkrl").requestFullscreen();
+      vid = document.getElementById('vid');
+      vid.hidden = false;
+      vid.requestFullscreen();
+      vid.play();
+    }
+    
+  </script>
+</head>
+<body>
+  <button onclick="getRickrolledBoi();" style="margin: auto;"><img src='https://docs.google.com/drawings/d/e/2PACX-1vRwOjFYBCrk2MAw0NUwtZqAMAxXtWG06321N9n_xRO_ONnlMMYgDF67wzlg94I6jsByMU-xT50d0wsq/pub?w=960&h=720'></button>
+  <br>
+  <div id='rickroll'>
+  <video width="320" height="240" controls id='vid' hidden>
+  <source src="nevergonnagiveyouup.mp4" type="video/mp4">
+  </video>
+  </div>
+</body>
+</html>
